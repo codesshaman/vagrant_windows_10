@@ -69,7 +69,6 @@ Stop: ``vagrant halt`` or ``make down``
 
 Restart: ``vagrant reload`` or ``make re``
 
-
 Hybernation: ``vagrant suspend``
 
 Delete VM: ``vagrant destroy`` or ``make clean``

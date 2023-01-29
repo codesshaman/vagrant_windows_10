@@ -2,8 +2,8 @@
 # vi: set ft=ruby :
 
 IP =  "192.168.58.93"   # Don't change!
-CPU_CORES_COUNT = "8"   # Cnahge if necessary
-MEMORY_COUNT = "16384"   # Cnahge if necessary
+CPU_CORES_COUNT = "4"   # Cnahge if necessary
+MEMORY_COUNT = "4096"   # Cnahge if necessary
 
 Vagrant.configure("2") do |win|
     win.vm.box = "senglin/win-10-enterprise-vs2015community"

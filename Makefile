@@ -1,4 +1,4 @@
-name = Macos Elcapitan
+name = Windows 10
 
 NO_COLOR=\033[0m		# Color Reset
 COLOR_OFF='\e[0m'       # Color Off
@@ -50,8 +50,9 @@ ps:
 	@vagrant status
 
 path:
-	@printf "$(YELLOW)==== View configuration ${name}... ====$(NO_COLOR)\n"
+	@printf "$(YELLOW)==== Change path for ${name}... ====$(NO_COLOR)\n"
 	@export VAGRANT_HOME=".vagrantboxes"
+	@printf "$(OK_COLOR)==== Pas has been changing ====$(NO_COLOR)\n"
 
 clean: down
 	@printf "$(ERROR_COLOR)==== Destroy configuration ${name}... ====$(NO_COLOR)\n"
